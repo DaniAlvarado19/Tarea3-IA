@@ -1,0 +1,4 @@
+visualization:
+  num_samples: 10
+  epoch_interval: 5
+  save_dir: "visualization_results"

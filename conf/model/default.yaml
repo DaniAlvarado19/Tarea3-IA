@@ -1,0 +1,14 @@
+model:
+  latent_dim: 32
+  learning_rate: 0.001
+  weight_decay: 1e-5
+  encoder:
+    conv_channels: [16, 8]
+    kernel_size: 3
+    stride: 2
+    padding: 1
+  decoder:
+    conv_channels: [16, 1]
+    kernel_size: 3
+    stride: 2
+    padding: 1
