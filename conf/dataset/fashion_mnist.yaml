@@ -1,9 +1,9 @@
 dataset:
-  name: "FashionMNIST"
-  root: "./data"
-  batch_size: 128
-  num_workers: 4
-  val_split: 0.2
+  name: "FashionMNIST" # Nombre del dataset
+  root: "./data" # Directorio raíz para datos
+  batch_size: 128 # Tamaño del batch
+  num_workers: 4 # Número de trabajadores para carga de datos
+  val_split: 0.2 # Porcentaje de datos para validación
   normalize:
-    mean: [0.5]
-    std: [0.5]
+    mean: [0.5] # Media para normalización (no utilizada en código actual)
+    std: [0.5] # Desviación estándar para normalización (no utilizada)

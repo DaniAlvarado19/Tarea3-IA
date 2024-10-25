@@ -1,4 +1,4 @@
 visualization:
-  num_samples: 10
-  epoch_interval: 5
-  save_dir: "visualization_results"
+  num_samples: 10 # Número de muestras a visualizar
+  epoch_interval: 5 # Intervalo de épocas para visualización
+  save_dir: "visualization_results" # Directorio para guardar resultados de visualización

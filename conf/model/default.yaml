@@ -1,7 +1,7 @@
 model:
-  latent_dim: 32
-  learning_rate: 0.001
-  weight_decay: 1e-5
+  latent_dim: 32 # Dimensión del espacio latente
+  learning_rate: 0.001 # Tasa de aprendizaje
+  weight_decay: 1e-5 # Decaimiento de peso para regularización
   encoder:
     conv_channels: [16, 8]
     kernel_size: 3

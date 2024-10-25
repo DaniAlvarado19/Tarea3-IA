@@ -1,8 +1,8 @@
 trainer:
-  max_epochs: 50
-  accelerator: "auto"
-  devices: 1
-  log_every_n_steps: 50
-  gradient_clip_val: 0.5
-  precision: 32
-  check_val_every_n_epoch: 1
+  max_epochs: 50 # Número máximo de épocas
+  accelerator: "auto" # Acelerador (CPU o GPU)
+  devices: 1 # Número de dispositivos
+  log_every_n_steps: 50 # Frecuencia de registro de logs
+  gradient_clip_val: 0.5 # Valor de recorte de gradiente
+  precision: 32 # Precisión (16 o 32 bits)
+  check_val_every_n_epoch: 1 # Frecuencia de validación
